@@ -1,0 +1,9 @@
+/home/virus/IdeaProjects/foxService/src/main/java/distributedsystems/foxService/api/payload/FoxPayload.java
+/home/virus/IdeaProjects/foxService/src/main/java/distributedsystems/foxService/services/models/Fox.java
+/home/virus/IdeaProjects/foxService/src/main/java/distributedsystems/foxService/api/restControllers/FoxController.java
+/home/virus/IdeaProjects/foxService/src/main/java/distributedsystems/foxService/services/repository/FoxRepository.java
+/home/virus/IdeaProjects/foxService/src/main/java/distributedsystems/foxService/services/Service/FoxService.java
+/home/virus/IdeaProjects/foxService/src/main/java/distributedsystems/foxService/services/IService/FoxIService.java
+/home/virus/IdeaProjects/foxService/src/main/java/distributedsystems/foxService/services/models/FairyAnimal.java
+/home/virus/IdeaProjects/foxService/src/main/java/distributedsystems/foxService/FoxApplication.java
+/home/virus/IdeaProjects/foxService/src/main/java/distributedsystems/foxService/api/payload/FairyAnimalPayload.java

@@ -1,0 +1,9 @@
+distributedsystems/foxService/services/models/FairyAnimal.class
+distributedsystems/foxService/services/models/Fox.class
+distributedsystems/foxService/services/Service/FoxService.class
+distributedsystems/foxService/services/IService/FoxIService.class
+distributedsystems/foxService/services/repository/FoxRepository.class
+distributedsystems/foxService/api/restControllers/FoxController.class
+distributedsystems/foxService/FoxApplication.class
+distributedsystems/foxService/api/payload/FoxPayload.class
+distributedsystems/foxService/api/payload/FairyAnimalPayload.class

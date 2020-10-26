@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fox
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fox
+  template:
+    metadata:
+      labels:
+        app: fox
+    spec:
+      containers:
+        -
+          image: my_story/fox_service
+          name: fox
+          imagePullPolicy: Never
+          ports:
+            -
+              containerPort: 8085
+              name: fox
+          env:
+            - name: POSTGRES_ENDPOINT
+              value: "jdbc:postgresql://localhost:5432/"
+            - name: POSTGRES_PASSWORD
+              value: "hello"
+            - name: POSTGRES_USERNAME
+              value: "postgres"
+            - name: FOX_URL
+              value: "http://story-fox"
